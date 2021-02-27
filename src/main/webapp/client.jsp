@@ -9,6 +9,9 @@
 </head>
 <body>
 <h1><fmt:message key="title.client"/></h1>
+<form action="logout" method="get">
+    <input type="submit" value="<fmt:message key="button.logout"/>">
+</form>
 </body>
 </html>
 
